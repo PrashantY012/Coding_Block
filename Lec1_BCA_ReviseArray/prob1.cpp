@@ -7,7 +7,7 @@ using namespace std;
 
 
 //vector === array === arraylist
-vector<int> twoSum(vector<int>&arr, int target){//return of indcides of two elemetns whose sum is target
+vector<int> twoSum(vector<int>&arr, int target){//return of indices of two elemetns whose sum is target
 
 
     int size = arr.size(); //we are finding size of array

@@ -1,6 +1,5 @@
 public class MyClass{
 
-
     int getSum(int a , int b){  //one operation , runs in approx constant time
         return a+b;
     }

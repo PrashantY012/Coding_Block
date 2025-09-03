@@ -1,16 +1,6 @@
-// package _2_BCA;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.HashMap;
-
-/*
- for (Map.Entry<String, Integer> entry : map.entrySet()) {
-    System.out.println(entry.getKey() + " → " + entry.getValue());
-}
-
- */
-
 
 public class Main {
 
@@ -21,24 +11,7 @@ public class Main {
         }
         return sum;
     }
-    public static int getSumUsingMap(int arr[]){
-        Map<Integer, Integer> mp = new HashMap<>();
-        mp.put(1,3);
-        mp.put(3,8);
-        mp.put(4,8);
-        mp.remove(3);
-        System.out.println(mp.containsKey(4));
-        System.out.println(mp);
-        for(Integer key: mp.keySet()){
-
-        }
-        return 0;
-    }
-    public static void main(String[] args) {
-        int arr[] ={1,2,3,5,5};
-        int ans = getSum(arr);
-        System.out.println(getSumUsingMap(arr));
-    }
+    
 
 
         //what is the time complexity of this function? 
