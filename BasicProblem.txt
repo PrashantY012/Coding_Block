@@ -1,0 +1,19 @@
+LC:
+
+No 1 -> two sum
+No 2-> valid anagram
+No 53 -> maximum subarrary, good problem
+No 58 -> length of last word	
+No 27 -> remove element
+no 205 -> isomorhphic string
+no 191 -> no of 1 bits
+no 125 -> valid palindrome
+no 977 -> Squares of sorted array
+no 283 -> Move zeroes
+no 724 -> find pivot index
+no 136 -> single no, tricky as required, use maps for it.
+no 448 ->find all numbers disappered in an array
+no 680 -> find all no disappered in an array
+no 682
+344 
+Step 1 solve, step 2 optimise
