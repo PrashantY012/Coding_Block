@@ -146,3 +146,17 @@ public class Recusrion_1 {
 // not.
 
 // Write a function to calculate sum of an array using recursion.
+
+/* 
+
+*************How to approach Recursion problems, some tips*************
+
+1. Break into base case and calculation part.
+2.  Think how you can call same function, with a smaller input/sample,assume you will get 
+the answer, apply operations on the recieved answer to include current element.
+3.For Base case, think of very simple cases, small inputs, what will be answer when my n is 
+small (like 1,2,3) or when my array has 1 or 2 elements only etc.
+4. dry run/draw call stack(tree structure) as done in class with pen paper.
+
+
+ */
