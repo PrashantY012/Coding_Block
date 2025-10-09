@@ -1,0 +1,119 @@
+*{
+    color: red;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 200px;
+
+}
+
+h3{
+    font-size: 300px
+
+} */
+
+
+/* html{
+    font-size: 200px;
+} */
+:root{
+    font-size: 200px;
+}
+
+.grandParent{
+    font-size: 0.25rem;
+}
+
+.parent{
+    font-size: 0.25rem;
+}
+
+.child{
+    font-size: 0.25rem;
+}
+
+/* div{
+    display: inline-block;
+} */
+
+.outerMostBlock{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    font-size: 10px;
+    color: black;
+    padding: 20px;
+    border: 10px black;
+    border-style: solid;
+    margin: 40px;
+    box-sizing: border-box;
+}
+
+.outerBlock{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
+/* .innerBlock{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+} */
+
+
+.outerMostBlock2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    padding: 20px;
+    border: 10px black;
+    border-style: solid;
+    box-sizing: border-box;
+    margin: 40px;
+}
+
+.outerBlock2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
+
+#block1{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    margin: 100px;
+    display: inline-block;
+}
+
+#block2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 100px;
+}
+
+button{
+    padding: 30px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+
+

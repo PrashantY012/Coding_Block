@@ -1,0 +1,43 @@
+/* *{
+    color: green;
+} */
+
+
+h3 { 
+    color: green;
+}
+
+#nameId{
+    color: aquamarine;
+}
+
+.para3{
+    color: brown;
+}
+p {
+    color: black;
+}
+
+form p {
+    color: burlywood ;
+}
+
+#formPara{
+    color: chartreuse ; 
+}
+
+
+/* 
+Speciificty Rule
+*---priority lowest
+tags  p a h1 --> more
+
+class --> higher
+
+id---> higher
+
+inline Css--> highest
+
+
+
+*/
