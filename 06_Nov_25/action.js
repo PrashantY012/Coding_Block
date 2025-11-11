@@ -40,7 +40,6 @@ let inputValue;
 input.addEventListener('input',(evn)=>{
     console.log(evn.target.value)
     inputValue=evn.target.value;
-    if(inputValue===-1)evn.target.value="";
 })
 
 let todoList= document.getElementById("todoList");
