@@ -6,6 +6,14 @@ app.get('/helloWorld',(req,res)=>{
     res.send('Hello World (this is sent by server to browser)')
 })
 
+
+
+app.get('/learnReq/:id',(req,res)=>{
+    res.send('learning request');
+    console.log("queryParams r: ",req.query.fruit)
+    console.log("path variable iss: ",req.params.id);
+})
+
 const obj ={
     'name':{
         first_name :'John',
@@ -17,12 +25,6 @@ const obj ={
         'Pincode':411047
     }
 }
-
-app.get('/learnReq/:id',(req,res)=>{
-    res.send('learning request');
-    console.log("queryParams r: ",req.query.fruit)
-    console.log("path variable iss: ",req.params.id);
-})
 
 app.get('/info',(req,res)=>{
     res.send(obj);
